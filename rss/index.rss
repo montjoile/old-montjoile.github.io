@@ -1,0 +1,32 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Sara Iris Garcia</title><description>Personal Blog &amp; Portfolio</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sun, 15 May 2016 16:33:17 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>How to recover deleted files from USB in Linux</title><description>Follow these easy steps to recover deleted files from a USB stick</description><link>http://localhost:2368/how-to-recover-deleted-files-from-usb-in-linux/</link><guid isPermaLink="false">7712a621-138d-4f71-a713-6681ada09ecc</guid><category>Tutorial</category><category>Linux</category><category>Photorec</category><dc:creator>Sara Iris García</dc:creator><pubDate>Sat, 07 May 2016 15:36:20 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/05/pablo--5-.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/05/pablo--5-.png" alt="How to recover deleted files from USB in Linux"&gt;&lt;p&gt;Some of you might know that by default, most Linux distros don't erase the files in a USB stick when we delete them. Actually, a hidden  &lt;em&gt;_trashes&lt;/em&gt; folder is created, with all the 'deleted' files inside. &lt;br&gt;
+But what happen when that folder is also removed? How to recover our precious files?&lt;/p&gt;
+
+&lt;p&gt;It happened that someone by mistake erased ALL the files of my USB stick. Lucky for me, I found &lt;strong&gt;testdisk&lt;/strong&gt;, an open source software hero that recover every deleted file from a disk, or in my case, a USB stick. &lt;/p&gt;
+
+&lt;p&gt;To install testdisk in Ubuntu, just open the Terminal and type:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get install testdisk
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There is also &lt;strong&gt;photorec&lt;/strong&gt;, which is installed with testdisk. To use it, just type &lt;em&gt;photorec&lt;/em&gt; in the terminal:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/05/photorec.png" alt="How to recover deleted files from USB in Linux"&gt;&lt;/p&gt;
+
+&lt;p&gt;Select the disk you want to scan, and follow the steps. You may have to wait several minutes (in my case, almost two hours). But believe me, it's worth the time.&lt;/p&gt;
+
+&lt;p&gt;Photorec also works in Windows and Mac. You can check &lt;a href="http://www.cgsecurity.org/wiki/TestDisk"&gt;The official website&lt;/a&gt; to get more information.&lt;/p&gt;</content:encoded></item><item><title>How to add Google Fonts to LibreOffice</title><description>Save your favorite Google Font to LibreOffice in three easy steps</description><link>http://localhost:2368/how-to-add-google-fonts-to-libreoffice/</link><guid isPermaLink="false">45af9ee7-514e-4186-b8aa-49c90811166c</guid><category>Tutorial</category><dc:creator>Sara Iris García</dc:creator><pubDate>Sat, 07 May 2016 05:28:30 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/05/google-fonts-1.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/05/google-fonts-1.png" alt="How to add Google Fonts to LibreOffice"&gt;&lt;p&gt;Go to &lt;a href="https://www.google.com/fonts"&gt;Google Font site&lt;/a&gt;. Choose the desired font in Google Fonts. &lt;br&gt;
+Click the &lt;em&gt;Add to Collection&lt;/em&gt; button next to your favorite font. &lt;br&gt;
+Now download your fonts collection. (You can even download the entire google fonts family!)&lt;/p&gt;
+
+&lt;p&gt;Unzip the font file. Go to your fonts directory and create a folder for the downloaded font:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd /usr/share/fonts/truetype/
+sudo mkdir name_of_the_font
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now move the content of the zip file to the newly created folder:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo mv ~/Escritorio/Font_file.ttf ./
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Restart LibreOffice. Now you can see the font in the list!&lt;/p&gt;</content:encoded></item><item><title>Hello World!</title><description>&lt;p&gt;This is the first post of my brand-new blog made with the power of Ghost!&lt;/p&gt;</description><link>http://localhost:2368/hello-world/</link><guid isPermaLink="false">0d624c22-9546-4125-98b9-898a02fc78f2</guid><dc:creator>Sara Iris García</dc:creator><pubDate>Wed, 04 May 2016 05:16:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/05/pablo--3-.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/05/pablo--3-.png" alt="Hello World!"&gt;&lt;p&gt;This is the first post of my brand-new blog made with the power of Ghost!&lt;/p&gt;</content:encoded></item></channel></rss>
